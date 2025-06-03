@@ -2,7 +2,7 @@ services:
   - type: web
     name: diabetes-predictor
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r diabete_predictor/requirements.txt
     startCommand: python app.py
     envVars:
       - key: PYTHON_VERSION
