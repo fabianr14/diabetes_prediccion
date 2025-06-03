@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder='templates')
 
 # Cargar el modelo PMML
 try:
-    model = Model.fromFile('modelo.pmml')
+    model = Model.fromFile('model.pmml')
 except Exception as e:
     print("Error al cargar el modelo:", e)
     exit(1)
