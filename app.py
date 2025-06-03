@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # permite conexiones desde tu frontend
 
 # Cargar modelo PMML al inicio
-model = Model.load('archivo_diabetes.pmml')
+model = Model.load('prediccion_diabetes.pmml')
 
 @app.route('/predict', methods=['POST'])
 def predict():
