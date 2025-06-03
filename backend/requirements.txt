@@ -1,4 +1,4 @@
 fastapi
 uvicorn
-nyoka==4.3.0
+nyoka==4.2.1
 gunicorn
