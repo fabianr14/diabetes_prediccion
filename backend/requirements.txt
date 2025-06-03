@@ -1,4 +1,0 @@
-fastapi
-uvicorn
-nyoka==5.0.1
-gunicorn
