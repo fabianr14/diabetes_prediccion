@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from nyoka import pml4_3 as pml
+from nyoka import pml
 import uvicorn
 
 # Cargar modelo PMML
